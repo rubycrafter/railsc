@@ -30,4 +30,7 @@ published: true
 
 {% block main %}
 %p Hello world
+%img{:alt => "rails", :src => "{{ 'rails.png' | theme_image_url }}"}
+%img{:alt => "ruby", :src => "{{ 'ruby.png' | theme_image_url | resize: '70x' }}"}
+%img{:alt => "sphinx", :src => "{{ 'sphinx.png' | theme_image_url }}"}
 {% endblock %}
