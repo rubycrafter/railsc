@@ -1,4 +1,0 @@
-# Logfile created on 2016-04-02 14:28:23 +0500 by logger.rb/47272
-I, [2016-04-02T14:28:23.228288 #30706]  INFO -- : Thin web server (v1.6.4 codename Gob Bluth)
-I, [2016-04-02T14:28:23.228426 #30706]  INFO -- : Maximum connections set to 1024
-I, [2016-04-02T14:28:23.228485 #30706]  INFO -- : Listening on 0.0.0.0:3333, CTRL+C to stop
