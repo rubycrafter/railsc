@@ -2,13 +2,12 @@
 title: Page not found
 published: true
 ---
-{% extends 'layouts/default' %}
+{% extends index %}
 
-{% block content %}
+{% block main %}
 .container
   .jumbotron
     {% editable_text jumbotron, rows: 5, priority: 1 %}
-    %h1.text-danger Arrggggh, page not found
-    %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+    %h1.text-danger Упс! 404
     {% endeditable_text %}
 {% endblock %}
