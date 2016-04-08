@@ -20,3 +20,15 @@ live:
   handle: railsc
   email: lightcrafter92@gmail.com
   api_key: 4f7aecb76d75007f9886f668b19e66e627735b84
+
+localhost:3000:
+  host: localhost:3000
+  handle: railsc
+  email: lightcrafter92@gmail.com
+  api_key: 81bcf20bc7c43a595d98fa9c94b29a25ae9b7af2
+
+railsc:
+  host: localhost:3000
+  handle: railsc
+  email: lightcrafter92@gmail.com
+  api_key: 4d648a84d9248dea15a471b8c44d1477fe2eecc1
